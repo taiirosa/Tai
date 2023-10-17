@@ -1,4 +1,33 @@
-header{
-background-color:rgb(247, 177, 223);
-color:rgb(204, 14, 141)
+/* style.css */
+body {
+    background: #ffcccc; /* Cor de fundo rosa */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #ff3366, #ff6699); /* Degradê rosa forte */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
 }
